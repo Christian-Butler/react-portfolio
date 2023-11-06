@@ -1,17 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{html,js}",
-    'node_modules/daisyui/dist/**/*.js',
-    'node_modules/react-daisyui/dist/**/*.js',
+    "./src/**/*.{js,jsx,ts,tsx}",
+    
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+    container: {
+      center: true
     },
+    extend: {
+      
     },
   },
   plugins: [require("daisyui")],
+
+  
 }
 
