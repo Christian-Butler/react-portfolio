@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "react-portfolio-76866"
-  }
+    "default": "react-portfolio-76866",
+    "react-portfolio": "react-portfolio-76866"
+  },
+  "targets": {},
+  "etags": {}
 }
